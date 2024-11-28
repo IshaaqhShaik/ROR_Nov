@@ -1,0 +1,4 @@
+create branch-  git checkout -b branchname
+adding the file-git add filename
+commit message-git commit -m "data"
+pushing the data-git push
