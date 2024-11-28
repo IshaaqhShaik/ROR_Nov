@@ -1,1 +1,6 @@
 iam not married
+pull latest from master
+create a branch
+Edit a file
+push changes to branch
+
