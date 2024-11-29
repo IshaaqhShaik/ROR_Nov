@@ -4,5 +4,5 @@ list all branches -- git branch
 delete a branch -- git branch -d <branch-name>
 rename a branch -- git branches -m <new-branch-name>
 merge branches -- git merge <branch-name>
-stach changes -- git stash
-view differences between branches -- git diff <branch-1>..<branch-2>
+stach changes -- git stashgit
+view differences between branches -- git diff <branch-1>..<branch-2>git status
