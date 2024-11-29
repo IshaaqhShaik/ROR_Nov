@@ -1,10 +1,10 @@
 1.What is Git?
-    Git is DevOps tool used for source code mangement. It is a free and open-source Version Control System(VCS) used to handle small to
+    Git is DevOps tool used for source code management. It is a free and open-source Version Control System(VCS) used to handle small to
     large projects effectively.
 
 2.What is difference between Git and GitHub?
-    *Git is a version control system that lets you manage and keep track of your source code history.
-    *GitHub is cloud-based hosting service that lets you manage Git repositories.
+    *Git is a version control system that lets us manage and keep track of our source code history.
+    *GitHub is cloud-based hosting service that lets us manage Git repositories.
         If we have open-source projects that use Git, then GitHub is designed to help us better manage them.
 
 3.Briefly explain about Git Life Cycle?
@@ -15,13 +15,13 @@
       changes. 
     5.If there are no changes then Push the changes to the remote repository.
 
-4.What are the three states/stages of the Git Architecture and breifly explain them?
+4.What are the three states/stages of the Git Architecture and briefly explain them?
     1.Working Directory: It is the current state of our files, 'Git Init' is the command used to initialize the directory.
     2.Staging Area: It is the place where different versions of our files are stored, 'Git add' command is used to copy the files from
                     working directory to staging area.
     3.Git Directory: The files which are in staging area will move to Git Repository after commit is fired.
         
-5.What are the changes recored to the repository?
+5.What are the changes recorded to the repository?
     The files in working directory are 'Tracked' or 'Untracked'
 
     Tracked:
