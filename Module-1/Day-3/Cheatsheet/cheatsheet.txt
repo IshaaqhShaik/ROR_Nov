@@ -1,0 +1,36 @@
+1.What is Git?
+    Git is DevOps tool used for source code mangement. It is a free and open-source Version Control System(VCS) used to handle small to
+    large projects effectively.
+
+2.What is difference between Git and GitHub?
+    *Git is a version control system that lets you manage and keep track of your source code history.
+    *GitHub is cloud-based hosting service that lets you manage Git repositories.
+        If we have open-source projects that use Git, then GitHub is designed to help us better manage them.
+
+3.Briefly explain about Git Life Cycle?
+    1.Clone the code in the remote repository to make our own local repository.
+    2.Edit the files that have cloned in our local repository and make the necessary changes in it.
+    3.Commit our changes by first adding them to our staging area and committing them with a commit message.
+    4.We have to check whether there are any of the changes done in the remote repository by some other users and we first pull that 
+      changes. 
+    5.If there are no changes then Push the changes to the remote repository.
+
+4.What are the three states/stages of the Git Architecture and breifly explain them?
+    1.Working Directory: It is the current state of our files, 'Git Init' is the command used to initialize the directory.
+    2.Staging Area: It is the place where different versions of our files are stored, 'Git add' command is used to copy the files from
+                    working directory to staging area.
+    3.Git Directory: The files which are in staging area will move to Git Repository after commit is fired.
+        
+5.What are the changes recored to the repository?
+    The files in working directory are 'Tracked' or 'Untracked'
+
+    Tracked:
+        The files that were in the last snapshot, newly staged files and can be modified or unmodified or staged. Git knows about the 
+        tracked files. 
+
+    Untracked:
+        The files which are not in our last snapshot and not in staging area in working directory.
+
+    Note:
+        *When you first clone a repository, all of our files will be tracked and unmodified.
+        *if we edit files, then Git sees them as modified because we have changed them since last commit.
