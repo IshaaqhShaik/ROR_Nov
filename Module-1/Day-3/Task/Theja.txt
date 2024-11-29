@@ -1,0 +1,18 @@
+git
+it is a DevOps tool used for source code management.It is a free and open source version control sustem(vcs)used to handle small to very large projects efficiently
+Git is used to tracking changes in the source code,enabling multiple developers to work together on non-linear development
+Difference between Git and Github
+Git is a version control system that lets you manage and keep track of your source code history
+Github is a cloud-based hosting service that lets you manage Git repositeries
+If you have open-source projects that use Git,then Github is designed to help you better manage them
+Step-1
+First we clone any of the code residing in the remote repositery to make our own local repositery
+Step-2
+we edit the files that we have cloned in our local repositery and make neccessary changes in it
+Step-3
+we commit our changes by first adding them to our staging area and commiting them with a commit message
+Step-4&step-5
+first we check whether there are any of the changes done in the remote repositery by some other user's and we first pullthat changes .
+if there are no changes we directly proceed with
+Step-6
+in which we push our changes to the remote repositery and we are dine with our work 
