@@ -1,0 +1,57 @@
+git: 
+  
+  git is a devops tool used for source code management.
+  it is a free and open-source version control system used to handle small to very large projects efficiently
+  git is used to tracking changes in the source code
+
+git life cycle:
+  
+  you clone the git repository as a working copy.
+  you modify the working copy by adding/editing files.
+  if necessary, you also update the working copy by taking other developers changes.
+  you review the changes before commit.
+  you commit changes.if everything is fine,then you push the changes to the repository.
+  after commiting, if you realize something is wrong, then you correct the last commit and push the the changes to repository.
+
+reading changes to the repository:
+
+  each file in your working directory can be in one of two states: tracked or un tracked.
+  tracked files are files that were in the last snapshot, as well as any newly staged files; they can be un modified, modifies, or staged.
+  tracked files are files that git knows about.
+
+checking the status of your files:
+
+  the main tool you use to determine which files are in which state is the " git status" command.
+  Ex:-$ git status
+  on branch master
+  your branch is up-to-date with 'origin/master'.
+  noting to commit,working tree clean
+
+what is remote and local repository:
+
+  local repository reside on the computers of team members.
+  the entire work of git is based on this repository, it tracks the history and safeguards it.
+  you can commit your changes into your repository directly, using the command: git commit -m
+
+
+what is meant by staging changes:
+
+  in git, just because a file was modified doesnt mean it will be automatically included in the next commit.
+  instead, you have to tell git explicity which of you modifications shall be part of the next commit.
+  this is done by adding a changes to the staging area.
+
+
+  commands:
+
+   git branch: it lists all the branches in the repository
+
+   git checkout . : it reverts modifications to files andbrings the working directory back to the state of thelastcommit. the dot(,) refers to current directory.
+
+   git checkout branch_name : this commandis used to switch to an existing branch in the repository. in allows you to work on the code contained within that specific branch.
+
+
+types of branches-
+
+ feature
+ release
+ hotfix
