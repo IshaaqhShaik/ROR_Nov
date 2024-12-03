@@ -1,0 +1,45 @@
+Branch Operations
+
+  Git init: the git init command is used to initialize a new git repository in a directory , turning into a version controlled project. this command is typically run when you starting a ne wproject or when you want to start tracking an existing project wit git.
+
+  Git diff : the git diff command is used to show the difference between files or commits in a git repository. it helps you compare changes that have been made to files before commiting them, or to see how different branches,commits, or tags compare to one another.
+
+  Git dif_staged : this cxommand shows the differnce between the files in the staging are and the latest version present.
+
+  Git reset: the git reset command is one of the most powerful and potentially destructive commands in git. it is used undo the changes in your working directory
+
+  Git stash: the git stash command is used to temporarily save changes in your working directory and staging are.
+
+  Git pop: the git stash pop command is used to apply the most recent stash to your working directory and remove it from the stash list.
+
+  Git merge: the git merge command is used to combine changes from one branch into another, it a fundamental part of collaborative workflow in git,
+
+  Git rebase : the git rebase command is apowerful tool in git used to reapply commits from one branch to another, it allows you to integrate changes from one branch into another.
+
+  BRANCH OPERATIONS;
+
+  Create a new branch: git branch <branch-name>
+    
+  switch to a branch : git checkout <branch-name>/git switch
+
+  list all branches: git branch
+
+  delete a branch: git branch -d <branch-name>
+
+  rename a branch: git branch -m <new-branch-name>
+
+  merge branches: git merge <branch-name>
+
+  rebase branches: git rebase <branch-name>
+
+  push branch to remote: git push origin <branch-name>
+
+  pull changes from remote: git pull origin <branch-name>
+
+  track a remote branch: git branch --set-upstream-to-origin/<branch-name>
+
+  stash changes: git stash
+
+  cherry-pick a commit: git cherry-pick <commit-hash>
+
+  view differences between branches: git diff <branch-1>..<branch-2>
