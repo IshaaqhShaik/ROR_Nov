@@ -1,0 +1,11 @@
+What is git?
+  it is tool
+
+What is the full form of git?
+  Global information tracker
+
+What does git clone do?
+  command creates a copy
+
+What is a conflict?
+  git usually handles and merge automatically
