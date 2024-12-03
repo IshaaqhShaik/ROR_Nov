@@ -1,0 +1,16 @@
+What is git?
+Git is version control system. 
+
+what is repository ?
+Repository is a file structure where git files are stores all the project based files.
+
+How to create branch ?
+git checkout -b branch name.
+
+What is remote repository and local repository?
+Remote repository are hosted on servers that is accessable to all team members on internet.Local repository resides on computers of team members.
+
+How to commit changes?
+git commit -m "filename"
+ what is git full form?
+ global information tracker
