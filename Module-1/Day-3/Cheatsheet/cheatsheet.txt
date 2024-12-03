@@ -34,3 +34,22 @@
     Note:
         *When you first clone a repository, all of our files will be tracked and unmodified.
         *if we edit files, then Git sees them as modified because we have changed them since last commit.
+
+6.What is git repository?
+    A Repository is a file structure, where git stores all the project based files.
+    it can either stores the files on the local or remote repository.
+
+7.What does git clone do?
+    The command creates a copy.
+
+8.What is a conflict?
+    git usually handles merges automatically but sometimes while working in a team,there might be cases of conflicts such as.
+    when two separate branches have changes to the same line in a file
+  
+9.What are the three types of branching in git?
+  feature
+  release
+  hotfix
+
+10.How to create branch?
+    git checkout -b branchname
