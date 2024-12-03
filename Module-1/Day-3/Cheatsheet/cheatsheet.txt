@@ -35,21 +35,41 @@
         *When you first clone a repository, all of our files will be tracked and unmodified.
         *if we edit files, then Git sees them as modified because we have changed them since last commit.
 
-6.What is git repository?
+6.what is git 
+    git is a devops tool used for source code management,it is a free and open source version control system used to handle small to very large projects efficiently
+
+7.If you dont create a branch what are the problems you are facing
+    1.simultaneas changes
+    2.overwriting changes
+    3.conflicting changes
+    4.manual conflict changes
+
+8.How many types of branches
+    1.Feature branch
+    2.Release branch
+    3.Hotfix
+
+9.What is the use of git branch command
+    it lists all the branches in repositery
+
+10.what is the use of git status command
+    The main tool you use to determine which file are in which state
+
+11.What is git repository?
     A Repository is a file structure, where git stores all the project based files.
     it can either stores the files on the local or remote repository.
 
-7.What does git clone do?
+12.What does git clone do?
     The command creates a copy.
 
-8.What is a conflict?
+13.What is a conflict?
     git usually handles merges automatically but sometimes while working in a team,there might be cases of conflicts such as.
     when two separate branches have changes to the same line in a file
   
-9.What are the three types of branching in git?
+14.What are the three types of branching in git?
   feature
   release
   hotfix
 
-10.How to create branch?
+15.How to create branch?
     git checkout -b branchname
