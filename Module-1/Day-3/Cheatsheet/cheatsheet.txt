@@ -53,3 +53,24 @@
 
 10.How to create branch?
     git checkout -b branchname
+
+
+11 what is git 
+    git is a devops tool used for source code management,it is a free and open source version control system used to handle small to very large projects efficiently
+
+12 If you dont create a branch what are the problems you are facing
+    1.simultaneas changes
+    2.overwriting changes
+    3.conflicting changes
+    4.manual conflict changes
+
+13 How many types of branches
+    1.Feature branch
+    2.Release branch
+    3.Hotfix
+
+14 What is the use of git branch command
+    It lists all the branches in repositery
+
+15.what is the use of git status command
+    The main tool you use to determine which file are in which state
