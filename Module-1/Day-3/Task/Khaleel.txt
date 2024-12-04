@@ -1,0 +1,48 @@
+Git : 
+
+* Git is Version control system is used to handle small to large projects.
+* Git is used to tracking changes
+
+Git Hub :
+
+* git hub is a cloud based platform where you can store, share and work together with others to write code. Storing code in "repository".
+
+Recording changes to repository :
+
+Two types:
+
+* Tracked -- Tracked files are in last snapshot as well as newly staged files they can be modified, unmodified or staged.
+* untracked  -- untracked files are any files in your working directory that where not in your snapshot and not in your staging area.
+
+Stage Architecture :
+
+Three types :
+
+* Working Directory
+* Staging Area
+* Git directory
+
+Remote and local Repository :
+
+* Remote Repo -- Remote repo are hosted on servers that are accessible for all team members , mostly on internet.
+* Local Repo -- Local repo resides on local computers.
+
+
+Branch :
+
+* Branch is a separate copy of the main branch that allow users to work independently on a project without affecting the main branch
+
+
+Types of branches : 
+
+Three types :
+
+* Featured 
+* Release
+* hotfix
+
+
+
+
+
+
