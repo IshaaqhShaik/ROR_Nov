@@ -1,11 +1,4 @@
-What is git?
-  it is tool
 
-What is the full form of git?
-  Global information tracker
-
-What does git clone do?
-  command creates a copy
 Git : 
 
 * Git is Version control system is used to handle small to large projects.
