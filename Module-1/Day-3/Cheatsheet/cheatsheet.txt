@@ -1,42 +1,93 @@
-Git : 
+1.What is Git?
+    Git is DevOps tool used for source code management. It is a free and open-source Version Control System(VCS) used to handle small to
+    large projects effectively.
 
-* Git is Version control system is used to handle small to large projects.
-* Git is used to tracking changes
+2.What is difference between Git and GitHub?
+    *Git is a version control system that lets us manage and keep track of our source code history.
+    *GitHub is cloud-based hosting service that lets us manage Git repositories.
+        If we have open-source projects that use Git, then GitHub is designed to help us better manage them.
 
-Git Hub :
+3.Briefly explain about Git Life Cycle?
+    1.Clone the code in the remote repository to make our own local repository.
+    2.Edit the files that have cloned in our local repository and make the necessary changes in it.
+    3.Commit our changes by first adding them to our staging area and committing them with a commit message.
+    4.We have to check whether there are any of the changes done in the remote repository by some other users and we first pull that 
+      changes. 
+    5.If there are no changes then Push the changes to the remote repository.
 
-* git hub is a cloud based platform where you can store, share and work together with others to write code. Storing code in "repository".
+4.What are the three states/stages of the Git Architecture and briefly explain them?
+    1.Working Directory: It is the current state of our files, 'Git Init' is the command used to initialize the directory.
+    2.Staging Area: It is the place where different versions of our files are stored, 'Git add' command is used to copy the files from
+                    working directory to staging area.
+    3.Git Directory: The files which are in staging area will move to Git Repository after commit is fired.
+        
+5.What are the changes recorded to the repository?
+    The files in working directory are 'Tracked' or 'Untracked'
 
-Recording changes to repository :
+    Tracked:
+        The files that were in the last snapshot, newly staged files and can be modified or unmodified or staged. Git knows about the 
+        tracked files. 
 
-Two types:
+    Untracked:
+        The files which are not in our last snapshot and not in staging area in working directory.
 
-* Tracked -- Tracked files are in last snapshot as well as newly staged files they can be modified, unmodified or staged.
-* untracked  -- untracked files are any files in your working directory that where not in your snapshot and not in your staging area.
+    Note:
+        *When you first clone a repository, all of our files will be tracked and unmodified.
+        *if we edit files, then Git sees them as modified because we have changed them since last commit.
 
-Stage Architecture :
+6.What is git repository?
+    A Repository is a file structure, where git stores all the project based files.
+    it can either stores the files on the local or remote repository.
 
-Three types :
+7.What does git clone do?
+    The command creates a copy.
 
-* Working Directory
-* Staging Area
-* Git directory
+8.What is a conflict?
+    git usually handles merges automatically but sometimes while working in a team,there might be cases of conflicts such as.
+    when two separate branches have changes to the same line in a file
+  
+9.What are the three types of branching in git?
+  feature
+  release
+  hotfix
 
-Remote and local Repository :
-
-* Remote Repo -- Remote repo are hosted on servers that are accessible for all team members , mostly on internet.
-* Local Repo -- Local repo resides on local computers.
-
-
-Branch :
-
-* Branch is a separate copy of the main branch that allow users to work independently on a project without affecting the main branch
+10.How to create branch?
+    git checkout -b branchname
 
 
-Types of branches : 
+11 what is git 
+    git is a devops tool used for source code management,it is a free and open source version control system used to handle small to very large projects efficiently
 
-Three types :
+12 If you dont create a branch what are the problems you are facing
+    1.simultaneas changes
+    2.overwriting changes
+    3.conflicting changes
+    4.manual conflict changes
 
-* Featured 
-* Release
-* hotfix
+13 How many types of branches
+    1.Feature branch
+    2.Release branch
+    3.Hotfix
+
+14 What is the use of git branch command
+    It lists all the branches in repositery
+
+15.what is the use of git status command
+    The main tool you use to determine which file are in which state
+
+16.What is git?
+    Git is version control system. 
+
+17.what is repository ?
+    Repository is a file structure where git files are stores all the project based files.
+
+18.How to create branch ?
+    git checkout -b branch name.
+
+19.What is remote repository and local repository?
+    Remote repository are hosted on servers that is accessable to all team members on internet.Local repository resides on computers of team members.
+
+20.How to commit changes?
+    git commit -m "filename"
+    what is git full form?
+    global information tracker
