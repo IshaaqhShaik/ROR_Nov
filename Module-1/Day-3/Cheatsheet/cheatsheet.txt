@@ -74,3 +74,20 @@
 
 15.what is the use of git status command
     The main tool you use to determine which file are in which state
+
+16.What is git?
+    Git is version control system. 
+
+17.what is repository ?
+    Repository is a file structure where git files are stores all the project based files.
+
+18.How to create branch ?
+    git checkout -b branch name.
+
+19.What is remote repository and local repository?
+    Remote repository are hosted on servers that is accessable to all team members on internet.Local repository resides on computers of team members.
+
+20.How to commit changes?
+    git commit -m "filename"
+    what is git full form?
+    global information tracker
