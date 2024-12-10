@@ -91,3 +91,27 @@
     git commit -m "filename"
     what is git full form?
     global information tracker
+
+21.What is Remote and local Repository?
+
+   Remote Repo -- Remote repo are hosted on servers that are accessible for all team members , mostly on internet.
+     Local Repo -- Local repo resides on local computers.
+
+
+22.What is Branch?
+
+  Branch is a separate copy of the main branch that allow users to work independently on a project without affecting the main branch
+
+
+23.How many Types of branches : 
+
+    Three types :
+        Featured 
+        Release
+        hotfix
+
+24.What is git stash?
+    temporarily saves changes in git directory.
+
+25.What is full form of git?
+     global information tracker.
