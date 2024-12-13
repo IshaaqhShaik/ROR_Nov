@@ -1,8 +1,35 @@
-create a new branch -- git branch <branch-name>
-switch to a branch -- git checkout <branch-name>/git switch
-list all branches -- git branch
-delete a branch -- git branch -d <branch-name>
-rename a branch -- git branches -m <new-branch-name>
-merge branches -- git merge <branch-name>
-stach changes -- git stashgit
-view differences between branches -- git diff <branch-1>..<branch-2>git status
+BRANCH OPERATIONS --
+
+ What is branch?
+    Git branches are effectively pa pointer to a snapshot of your changes. 
+    When you wantto add a new feature or fix a bug- no matter how big or how small.
+    you spawn a new branch to encapsulate changes.
+
+ What is pull request?
+    A pull request is a proposal to merge a set of changes from one branch into another.
+    In a pull request collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
+
+ git diff:
+   The git diff command is used to show the difference between files or commits in git repository.
+   Its helps to compare changes that have been made tofiles before commiting them.
+
+git diff --staged:
+    The command shows the difference  between the files in the staging area and the latest version present.
+
+git reset:
+   The reset command is most powerful  and potentially destructive commands in git.
+   It is used to undo changes in your working directory,staging area,or commmit history.
+
+git stash:
+   The git stash command is used to temporarily save changes in your working directory and staging area.
+   so that you can swich branches or perform tasks without commiting incomplete work.
+
+git pop:
+   The git stash pop command is used to apply the most stash to your working directory and remove it stash list.
+
+git merge:
+  The git merge command is used to combine changes from one branch to another.
+  It's a fundamental part of collabrative workflows in git.
+    
+        
+
