@@ -1,0 +1,75 @@
+Ruby Programming
+->Design History of Ruby
+  it is developed by Yukihiro Matz Matsumoto in Japan in the year 1993
+
+->Static typed language
+  The static typed language of a variable determined at compile time and cannot change during runtime,the compiler will fail to compile until any errors are fixed.
+
+->Dynamic typed language
+  The Dynamic typed language of a variable is determined at runtime meaning that variables can change types as the program runs.The program can compile even if it contains errors.
+
+The main difference between Static and Dynamic typing is when a Programming determines the type of a variable
+
+->Object oriented program(OOPS)
+  Every element is treated as Object.
+
+->Extensive functional Programming
+  To grasping the code
+
+->Scripting language
+  Used for miner and major Programming,and basic read and write operations will work
+
+->More Human Oriented than any other programming language.
+
+Key features of Ruby
+->Simplicity and efficiency
+  It allows developers to do a lot if work with a few lines of code
+
+->Flexibility
+  It is interpreted language.It's a Programming language that executes instructions directly,line by line,without the need to compile yhe code in to machine language first.
+  ex:Java Script,Ruby,Perl,PHP
+  Compiled language is a Programming language that is converted in to machine code so that the processor can execute it.The Compiled languages are Compiled not interpreted.
+  ex:c,c++
+
+The main difference between interpreted and Compiled languages is that languages are translated in to machine code before execution,while interpreted languages are executed directly.
+
+->Object-oriented Programming
+  Ruby is built around Objects,which are self-contained modules of code that bundle behavier and state.
+
+->Dynamic typing and Duck typing
+  Ruby supports both Dynamic and Duck typing.
+
+->Readable syntax
+  Ruby has a flexible syntax,that's easy to read.
+
+->Meta Programming
+  Ruby supports Metaprogramming,which allows code to manipulate itself and code.
+
+Agile manifesto
+->Language should encourage readability.
+->Language should be expresive to developers.
+->Language should enbrace changes and Dynamic.
+->Language Design should focus on users.
+
+Installing Ruby in Windows.OOPS
+  Ruby can be installed using "RubyInstaller.exe" and executable file from ruby installer.org
+
+Interactive Ruby
+  Once done with the Installation we can access the "Interactive Ruby"environment,where we can play around with Ruby Programming language in local.
+
+How to create and execute ruby programs
+->Use any text editer and create a name.rb file
+->Run the following command ruby filename.rb
+
+Basic commands
+->Print text using puts
+  puts"please enter your age"
+
+->Accept user input using gets
+  age = gets.
+
+->Format user input using chomp method
+  age = gets.chomp()
+
+->Comments to add what your code does
+  #p "Below line gets the input from the user"
