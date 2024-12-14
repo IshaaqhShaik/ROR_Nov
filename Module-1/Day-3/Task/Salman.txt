@@ -1,0 +1,28 @@
+git: 
+  
+  git is a devops tool used for source code management.
+  it is a free and open-source version control system used to handle small to very large projects efficiently
+  git is used to tracking changes in the source code
+
+git life cycle:
+  
+  you clone the git repository as a working copy.
+  you modify the working copy by adding/editing files.
+  if necessary, you also update the working copy by taking other developers changes.
+  you review the changes before commit.
+  you commit changes.if everything is fine,then you push the changes to the repository.
+  after commiting, if you realize something is wrong, then you correct the last commit and push the the changes to repository.
+
+reading changes to the repository:
+
+  each file in your working directory can be in one of two states: tracked or un tracked.
+  tracked files are files that were in the last snapshot, as well as any newly staged files; they can be un modified, modifies, or staged.
+  tracked files are files that git knows about.
+
+checking the status of your files:
+
+  the main tool you use to determine which files are in which state is the " git status" command.
+  Ex:-$ git status
+  on branch master
+  your branch is up-to-date with 'origin/master'.
+  noting to commit,working tree clean 

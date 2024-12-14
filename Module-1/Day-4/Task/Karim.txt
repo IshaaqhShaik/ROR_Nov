@@ -1,0 +1,62 @@
+Branch Operations:
+    1.Git init:
+        This command is used to initialize a new Git repository in a directory, turning it in to a version controlled project. This 
+        command is typically run when we are starting a new project or when we want to start tracking an existing project with Git.
+
+    2.Git Diff:
+        This command is used dto show the differences between files or commits in a Git frepository. It helps us to compare changes that
+         have been made to files before committing them, or to see how different branches, commits, or tags compare to one another.
+
+        Git diff -staged:
+            This command shows the diffferences between the files in the staging area and sthe latest version present.
+        
+    3.Git Reset:
+        This command is one of the most powerful and potentially destructive commands din Git. It is used to undo changes in our working
+        directory, staging area, or commit history. Essentially, ir "resets" the state of our repository to a previous commit or state, 
+        allowing us to revert changes or adjust the commit history.
+
+    4.Git Stash:
+        This command is used to temporarily save changes in kour working directory and staging area, so that we can switch branches or 
+        perform other tasks without committing incomplete work. Once we are ready to resime, we can apply the stashed changes back to our
+        working directory.
+
+    5.Git Pop:
+        This command is used to apply the most recent stash to our working directory and remove it from the stash list. Essentially, it 
+        combines two actions
+
+        Git Merge:
+            This command is used to combine changes feom one branch in to another. It is a fundamental part of collaborative workflows 
+            in Git, allowing multiple branches of development to come together and share changes. 
+        
+        Git Rebase:
+            Ths command is a poweful tool in Git used to reapply feom one branch on to another. It allows us to integrate changes from 
+            one branch in to another, but instead of creating a merge comit like Git merge. Git Rebase rewrites the commit history to 
+            create a linear sequence of commits. This can lead to a cleaner, more readanle history.
+
+    Git Commands and Operations:
+    Syntax:
+    $Git branch <branch name> - To create a new branch.
+
+    $Git checkout <branch-name>/Git switch - To switch to a branch.
+
+    $Git branch - To list all branches.
+
+    $Git branch -d <branch-name> - To delete a branch.
+
+    $Git branch -m <new-branch-name> - To rename a branch.
+
+    $Git merge <branch-name> - To merge branches.
+
+    $Git rebase <branch-name> - To rebase branches.
+
+    $Git push origin <branch-name> - To push a branch to remote.
+
+    $Git pull origin <branch-name> - To push changes from remote repository.
+
+    $Git branch --set-upstream-to=origin/,branch-name> - To track a remote branch.
+
+    $Git stash - To stash changes.
+
+    $Git cherry-pick <commit-hash> - To cherry-pick a commit.
+
+    $Git diff <branch-1>....<branch-2> - To view differences between branches.
