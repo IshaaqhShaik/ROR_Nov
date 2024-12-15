@@ -1,0 +1,13 @@
+difference between local and global variables ?
+
+ local variable:
+
+   accessible only within the method,block, or class/module where it is defined.
+
+   starts with a lowercase letter or underscore (e.g., name_value)
+
+global variable:
+
+   accessible from anywhere in the program.
+
+   starts with a dollar sign ($) (e.g, $value).
