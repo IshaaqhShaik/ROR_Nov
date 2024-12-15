@@ -1,0 +1,134 @@
+variables of ruby
+
+  Local variables:
+     In Ruby, local variables are variables that are declared within a specific block, method, or class
+     and are only accessible within that scope. They are temporary and exist only while the block or 
+     method is being executed.
+
+Key Features of Local Variables in Ruby:
+	1.	Naming Convention:
+         Local variables must begin with a lowercase letter or an underscore (_).
+		 Valid: name, age, _value
+		 Invalid: $name, @name, NAME
+	2.	Scope:
+		 Local variables are confined to the block, method, or class where they are defined.
+		 They cannot be accessed outside their defining scope.
+	3.	Lifetime:
+		 Local variables are created when the block or method is called.
+		 They are destroyed once the execution of the block or method ends.
+	4.	Default Value:
+	     Uninitialized local variables in Ruby are treated as nil.
+
+    eg-
+       age = 10
+       _Age = 20     
+
+
+  Instance variables
+
+     In Ruby, instance variables are variables that belong to an instance of a class. They are used to
+      store data specific to an object and are accessible across all methods within the same object.
+
+Key Features of Instance Variables:
+	1.	Naming Convention:
+		Instance variables always begin with an @ symbol (e.g., @name, @age).
+	2.	Scope:
+		They are accessible only within the instance of the class they are defined in.
+		They are not shared between different instances of a class.
+	3.	Default Value:
+		If an instance variable is uninitialized, it automatically defaults to nil 
+        (instead of raising an error).
+	4.	Lifetime:
+		An instance variable exists as long as the object (instance) it belongs to exists.
+
+    eg-
+        class customer
+
+        def initialized(id, name,addr)
+
+    # an instance variable
+      @cust_id = id
+      @cust_name = name
+      @cust_addr = addr
+      end       
+
+  Class variables
+    In Ruby, class variables are variables that are shared across an entire class and all of its instances.
+    They are used to store data that is common to all objects created from a class.
+
+Key Features of Class Variables:
+	1.	Naming Convention:
+		Class variables always begin with @@ (e.g., @@counter, @@total).
+	2.	Scope:
+		They are accessible within the class, all instance methods, and all class methods.
+		The same value is shared across all instances of the class.
+	3.	Lifetime:
+		They exist as long as the class exists and retain their value between object instances.
+
+	4.	Default Value:
+		If uninitialized, accessing a class variable raises a NameError.
+
+    eg-
+        class customer
+
+        # class variable
+        @@no_of_customers = 0
+
+        def initialized(id, name,addr)
+
+    # an instance variable
+      @cust_id = id
+      @cust_name = name
+      @cust_addr = addr
+      end    
+    
+
+  Global variables
+
+   In Ruby, global variables are variables that are accessible from anywhere in the program, regardless
+   of the scope (class, module, method, etc.). They are used for storing data that needs to be shared 
+   across multiple scopes.
+
+Key Features of Global Variables:
+	1.	Naming Convention:
+    	Global variables always begin with a $ (e.g., $name, $count).
+	2.	Scope:
+		They are accessible throughout the entire program.
+	3.	Lifetime:
+		They exist for the duration of the program and retain their values until the program terminates or they are explicitly changed.
+	4.	Default Value:
+		Uninitialized global
+   
+   eg- 
+       # global variable
+       $global_variable = 10
+       class class1
+        def print_global
+        puts "Global variable in class1 is #$global_variable"
+        end
+       end
+       class class2
+        def print_global
+        puts "Global variable in class2 is #$global_variable"
+        end
+       end
+       class1onj = class1.new
+       class1obj.print_global
+       class2obj = class2.new
+       class2obj.print_global 
+
+constants
+     
+     A constant is a type of variable which always starts with a capital letter. They can only be defined
+      outside of methods, unless you use metaprogramming.
+     
+     Constants are used for values that aren’t supposed to change, but Ruby doesn’t prevent you from to 
+    changing them.
+
+     FRUIT = “Lemon”
+
+
+string
+
+     A string is a data type used to represent text or sequences of characters. It can include letters,
+    numbers, symbols, and even spaces, all enclosed in quotation marks.
