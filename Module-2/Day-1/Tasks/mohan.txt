@@ -1,0 +1,51 @@
+Design history of ruby 
+  developed by yukihiro matz matsumoto in japan in the year 1993.
+ruby is
+  dynamically typed language.
+  object oriented programing language.(than python)
+  extensive functional programing.
+  scripting language (powerful than perl).
+  more human oriented than any other programming language.
+
+  key features of ruby 
+
+  Simplicity and efficiency:
+   Ruby allows developers to do a lot with a few lines of code.
+
+  Flexibility:
+   Ruby is interpreted, which means code is processed at runtime, allowing for on-the-fly changes.
+
+  Object-oriented programming:
+   Ruby is built around objects, which are self-contained modules of code that bundle behavior and state.
+
+  Dynamic typing and duck typing:
+   Ruby supports both dynamic typing and duck typing.
+
+  Readable syntax:
+   Ruby has a succinct and flexible syntax that's easy to read.
+
+  Metaprogramming:
+   Ruby supports metaprogramming, which allows code to manipulate itself and other code.
+
+
+agile manifesto
+
+ Language design should focus on a users.
+ Language should encourage readability.
+ Language should be expressive to developers.
+ Language should embrace changes and be dynamic.
+
+how to create and execute ruby programs
+
+ Use any text editor and create a hello.rb file.
+ Run the following command ruby filename.rb
+
+ basic commands 
+
+ Accept user input using gets
+ Format user input using chomp method.
+ Print text using Puts.
+ Comments to add what your code does.
+
+
+
