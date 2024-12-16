@@ -1,0 +1,17 @@
+Ruby:
+	It is an Object Oriented Program.
+    It is invented by Japan Programmer Yukihiro Matz Matsumoto in 1993.
+    It is user friendly programming language when compared to other programming languages.
+    It follows Agile method.
+    It is scripting language better than Perl.
+
+Basic Commands of Ruby:
+    Puts: This command is used to print the comment.
+	    Syntax:~puts "Hello Karim"
+    
+    Gets: This command is used to get the input from the user.
+        Syntax:~Name = Gets
+
+    Chomp(): This command is used to format the text.
+        Syntax:~Age = gets.chomp()
+	
