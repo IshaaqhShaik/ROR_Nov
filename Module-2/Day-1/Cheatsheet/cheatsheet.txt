@@ -1,0 +1,2 @@
+Q)Who invents Ruby and in which year?
+A)Yukihiro Matz Matsumoto in 1993.
