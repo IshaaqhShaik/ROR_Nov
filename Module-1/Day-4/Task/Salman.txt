@@ -1,0 +1,38 @@
+Branch operations:
+   Branch operations in github incudes creating,listing,renaming and deleting branches 
+   you can performs these operations using the git branch command, which is integrated with the
+   git checkout and git merge commands
+
+Here are some steps to create a branch in github:
+   1.Go to  the repository's main page.
+   2.select branch dropdown menu from the file tree view on the left.
+   3.Click view all branches.
+   4.Click New branch.
+   5.Enter a name for the branch uner Branch name.
+   6.Choose a source for the branch under Branch source.
+   7.Click Create branch.
+
+    Git init:
+      The git init command is used to initialize a new repository in a directory,turning it into version controlled project.
+
+    Git diff:
+      The git diff commandis used show the difference between files or commitin a Git repository.
+      it helps you compare changes that have been to file commiting them.
+
+      Git diff --staged:
+        This command shows the difference between the files in the staging areaand the latest version present.
+
+    Git stash:
+      The git stash command is used to temporarily saves changes in your working directory and staging area.
+
+    Git reset:
+      It is one of the most powerful and potentially destructive command in Git.
+      It is used to undo the changes in your working directory,staging area or commit history.
+
+    Git pop:
+      The git stash pop command is used to apply the recent stash in your working directory and remove it from stash list.
+
+    Git merge:
+      The git merge command is used to combine changes from one branch to anotheer branch.
+      It's a fundamental part of collaborative workflow in git,allowing multiple branches of development to come together and share changes.
+          

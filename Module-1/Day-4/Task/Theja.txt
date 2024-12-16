@@ -1,0 +1,55 @@
+Branch operatons
+Git init:-Creates a new Git repositery in your current directery.
+This command is used to initialize a new repositery in a directery,turning into a version controlled project.
+
+Git diff:-The command shows the code changes between two commits or between the current repositery and an earlier commit
+This shows the difference between your working directery and the staging area for changes to be commited
+
+Git dif --staged:-The command which lists out the changes between staged area and your last commit
+
+Git reset:-This command is the one of the most powerfull and potentially destructive command in Git.
+it is used undo the changes in your working directory
+It is three types 
+1.soft reset
+2.Hard reset
+3.Mixed reset
+
+Git stash:-It is used to tracked for your uncommitted changes,both staged and unstaged saves them away for later use,and then reverts them from your working directory.
+
+Git pop:-The git stash pop command used to apply the most recent stash to your working directoryand remove it from the stash list
+
+Git merge:-A command to combine the changes from different branches
+
+Git rebase:-A command rewrites the commit history of a branches
+This is a powerful command in git,used to reapply commits from one branch to another,it allows you to integrate changes from one branch to another.
+
+Branch operations
+Git branch <branch name>              :It is used to create new branch in working repositery
+
+Git switch                            :It is designed specifically to switch branches,it is making it clearer and safer than git checkout
+
+Git checkout -b <branch name>         :It is creates a new branch and switches to simultaneously to the new branch by single command
+
+Git branch                            : It is shows the total list of the all branches
+
+Git branch -d <branch name>           : It is used to delete the branch in working repositery
+
+Git push origin-d <branch name>       :It is used to delete a branch in both local and remote repositery
+
+Git branch -m <new branch name>       :It is used to rename a branch in working repositery
+
+Git merge <branch name>               :It is used to combine the changes from different branches
+
+Git rebase <branch name>              :It is used to rewrites the commit history of a branch
+
+Git push origin <branch name>         :It is used to push the current branch to the branch of the matching name in the remote repositery
+
+Git pull origin <branch name>         :It is used to pull the data(projects) from master repositery to our branch name in local repositery
+
+Git branch --set-upstream-to-origin/<branch name>:It is used to simplifies the process of keeping local and remote repositeries in sync
+
+Git stash                             :It is used to tracked the files are in staged and unstaged files in local repositery
+
+Git cherry-pick<commit-hash>          : It is used to take a specified commit and altered in local repositery
+
+Git diff <branch-1>..<branch-2>       :It is used to view difference between one branch to another branch
