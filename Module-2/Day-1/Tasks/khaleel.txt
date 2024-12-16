@@ -1,0 +1,26 @@
+What is ruby and it's features ?
+
+ Ruby is dynamic, open source object oriented programming language.
+ Everything is an object in ruby.
+ Each value in ruby be a number, string, array or hash, is an object with its own methods and attributes.
+
+ List Some features of Ruby?
+
+ Object oriented language.
+ Format free language
+ It is Simplicity and effective
+ It is Metaprogramming
+ It's multi platform
+
+ 
+ How to create and execute ruby programs ?
+
+ Use any text editor and create a hello.rb file.
+ Run the following command ruby filename.rb
+
+Basic  commands of ruby?
+
+ Accept user input using gets.
+ Format user input using chomp method.
+ Print test using puts.
+ Comments to add what code does. 
