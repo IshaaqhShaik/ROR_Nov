@@ -1,0 +1,2 @@
+1.How to create ruby programs?
+     Use any text editor and create a hello.rb file.
