@@ -32,4 +32,4 @@ Basic  commands of ruby?
   Puts : Outputs the data you give it followed by a newline character (\n), which moves the cursor to next line.
          This means that every call to puts will begin on a new line.
 
- Print : print outputs the data you give it exactly as is, without adding a newline character.
+ Print : print outputs the data you give it exactly as is, without adding a newline character.  
