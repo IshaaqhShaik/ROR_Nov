@@ -1,0 +1,49 @@
+How many types of variables?
+
+ Local Variables   : Local variables in Ruby start with a lowercase letter or an underscore (_).
+                     Local variables are the most common type of variables. 
+                     They are only accessible within the scope they are defined in. 
+                     The scope could be a method, a block, or a loop. Once the scope is exited, the variables no longer accessible.
+ 
+ Instance Variables : Instance variables in Ruby start with an at sign @.
+                      Instance variables are associated with a specific object and can be accessed from any method within the object's class. 
+                      They are useful for sharing data between different methods of the same object.
+
+ Class variables    : Class variables in Ruby start with two at signs @@.
+                      Class variables are associated with a class and can be shared between all objects of that class. 
+                      They are useful for storing data that is common to all objects of a class.
+
+ Global variables   : Global variables in Ruby start with a dollar sign ($).
+                      Global variables are accessible from any part of your program, including within classes and methods. 
+                      They should be used sparingly, as they can lead to code that is hard to understand and maintain.
+
+What is Boolean?
+  A Boolean is a value used in a logic statement to say if something is considered true or false. 
+  This can be used to make decisions. In Ruby we don’t have a Boolean class, but we have Boolean objects! We have true & false. 
+  Which are the singleton objects of True Class & False Class.
+
+What is constants?
+
+ A constant is a type of variable which always starts with a capital letter. 
+ They can only be defined outside of methods, unless you use metaprogramming.
+ Constants are used for values that aren’t supposed to change, but Ruby doesn’t prevent you from changing them.
+ A constant doesn’t require any special symbol or syntax to declare. You just need to make the first letter an uppercase letter.
+
+What is String?
+ 
+ In Ruby, string is a sequence of one or more characters. It may consist of numbers, letters, or symbols. 
+ Here strings are the objects, and apart from other languages, strings are mutable, i.e. strings can be changed in place instead of creating new strings. String’s   
+ object holds and manipulates an arbitrary sequence of the bytes that commonly represents a sequence of characters.
+
+Creating Strings: To create the string, just put the sequence of characters either in double quotes or single quotes. 
+                  Also, the user can store the string into some variable. In Ruby, there is no need to specify the data type of the variable.
+ 
+What is Integers and Floating point numbers ?
+
+ Integers             : An integer is simply a sequence of digits, e.g., 12, 100. Or in other words, numbers without decimal points are called Integers. 
+                        In Ruby, Integers are object of class Fixnum(32 or 64 bits) or Bignum(used for bigger numbers).
+Floating-point numbers: Numbers with decimal points are usually called floats, e.g., 1.2, 10.0. 
+                        The floating-point numbers are object of class Float.
+
+
+
