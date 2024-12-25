@@ -1,0 +1,8 @@
+1) what are the arithmetic operators available in ruby? can you list and explain each one?
+
+  ruby provides a variety of arithmetic operators for performing mathematical operations. 
+  1. addition (+)
+  2. subtraction (-)
+  3. multiplication (*)
+  4. division (/)
+  5. modulus (%)
