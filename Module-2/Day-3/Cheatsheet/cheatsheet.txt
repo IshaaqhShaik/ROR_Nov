@@ -1,0 +1,5 @@
+How many typres are Operators
+    There are three types
+    1.Arithmetic Operators
+    2.Comparison Operators
+    3.Logical Operators
