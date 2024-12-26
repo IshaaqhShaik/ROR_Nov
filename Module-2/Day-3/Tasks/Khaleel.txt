@@ -1,0 +1,46 @@
+Ruby Operators ---
+
+  Operators in Ruby are symbols that allow you to perform operations on one or more operands. 
+  They are essential in any Ruby program as they enable you to execute various operations such as arithmetic calculations, comparisons, logical operations, and more.
+
+  Addition (+)      : Adds two operands. For example, x + y.
+
+  Subtraction (-)   : Subtracts the second operand from the first. For example, x - y.
+
+  Multiplication (*): Multiplies two operands. For example, x * y.
+
+  Division (/)      : Divides the first operand by the second. For example, x / y.
+
+  Modulus (%)       : Returns the remainder of the division of the first operand by the second. For example, x % y.
+
+  Exponent ()**     : Raises the first operand to the power of the second operand. For example, x ** y.
+
+Comparison Operators ---
+
+  Comparison operators or Relational operators are used for comparison of two values.
+
+  Equal To(==)     - operator checks whether the two given operands are equal or not. If so, it returns true. Otherwise it returns false.
+  
+  Not Equal To(!=) - operator checks whether the two given operands are equal or not. If not, it returns true. 
+                     Otherwise it returns false. It is the exact Boolean complement of the ‘==’ operator.
+  Greater Than(>)  - operator checks whether the first operand is greater than the second operand. If so, it returns true. Otherwise it returns false.
+
+  Less than(<)     - operator checks whether the first operand is lesser than the second operand. If so, it returns true. Otherwise it returns false.
+
+  Greater Than Equal To(>=) - operator checks whether the first operand is greater than or equal to the second operand.  
+                              If so, it returns true. Otherwise it returns     false. 
+  Less Than Equal To(<=)    - operator checks whether the first operand is lesser than or equal to the second operand. 
+                              If so, it returns true. Otherwise it returns false. 
+
+
+Logical Operators ---
+
+  They are used to combine two or more conditions/constraints or to complement the evaluation of the original condition in consideration.
+
+  Logical AND(&&) - operator returns true when both the conditions in consideration are satisfied. Otherwise it returns false. 
+                    Using “and” is an alternate for && operator.
+ 
+  Logical OR(||)  - operator returns true when one (or both) of the conditions in consideration is satisfied. 
+                    Otherwise it returns false. Using “or” is an alternate for || operator.
+
+  Logical NOT(!)  - operator returns true the condition in consideration is not satisfied. Otherwise it returns false. Using “not” is an alternate for ! operator.
