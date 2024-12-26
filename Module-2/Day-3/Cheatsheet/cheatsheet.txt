@@ -1,0 +1,11 @@
+What is logical operator in ruby and explain types ?
+
+  They are used to combine two or more conditions/constraints or to complement the evaluation of the original condition in consideration.
+
+  Logical AND(&&) - operator returns true when both the conditions in consideration are satisfied. Otherwise it returns false. 
+                    Using “and” is an alternate for && operator.
+ 
+  Logical OR(||)  - operator returns true when one (or both) of the conditions in consideration is satisfied. 
+                    Otherwise it returns false. Using “or” is an alternate for || operator.
+
+  Logical NOT(!)  - operator returns true the condition in consideration is not satisfied. Otherwise it returns false. Using “not” is an alternate for ! operator.
