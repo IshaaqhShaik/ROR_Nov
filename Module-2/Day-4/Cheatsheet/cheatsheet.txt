@@ -1,0 +1,3 @@
+Explain case statement in Ruby.
+    In Ruby, we use 'case' instead of 'switch' and 'when' instead of 'case'.
+    The case statement matches one statement with multiple conditions just like a switch statement in other languages.
