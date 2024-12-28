@@ -1,0 +1,40 @@
+Decision-Making Statements in Ruby: Four types --
+
+ if statement      : If statement in Ruby is used to decide whether a certain statement or block of statements will be executed or not 
+                     i.e. if a certain condition is true then a block of statement is executed otherwise not.
+
+ if-else statement : In this ‘if’ statement used to execute block of code when the condition is true and ‘else’ statement is used to execute a block of code when the        
+                     condition is false.
+
+ If – elsif – else : Here, a user can decide among multiple options. ‘if’ statements are executed from the top down. As soon as one of the conditions controlling the         
+                    ‘if’ is true, the statement associated with that ‘if’ is executed, and the rest of the ladder is bypassed. 
+                     If none of the conditions is true, then the final else statement will be executed.
+
+Ternary Statement  : In Ruby ternary statement is also termed as the shortened if statement. 
+                     It will first evaluate the expression for true or false value and then execute one of the statements. 
+                     If the expression is true, then the true statement is executed else false statement will get executed.
+
+Case Statement ?
+
+ The case statement is a multiway branch statement just like a switch statement in other languages. 
+ It provides an easy way to forward execution to different parts of code based on the value of the expression.
+
+ There are 3 important keywords which are used in the case statement:
+
+ case: It is similar to the switch keyword in another programming languages. It takes the variables that will be used by when keyword.
+ when: It is similar to the case keyword in another programming languages. It is used to match a single condition. 
+       There can be multiple when statements into a single      case statement.
+ else: It is similar to the default keyword in another programming languages. It is optional and will execute when nothing matches.
+
+Loops ?
+
+ Looping is a fundamental concept in programming that allows for the repeated execution of a block of code based on a condition. 
+ Ruby, being a flexible and dynamic   language, provides various types of loops that can be used to handle condition-based iterations. 
+ These loops simplify tasks that require repetitive actions in a program.
+
+ The main types of loops in Ruby are:
+
+ 1. while Loop
+ 2. for Loop
+ 3. do..while Loop
+ 4. until Loop

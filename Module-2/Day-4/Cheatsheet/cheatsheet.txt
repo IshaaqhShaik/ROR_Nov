@@ -1,0 +1,11 @@
+How many types of loops in ruby ?
+
+   
+   A loop is the repetitive execution of a piece of code for a given amount of repetitions or until a certain condition is met.
+ 
+   They are 4 types of loops in Ruby : 
+
+   1. while Loop
+   2. for Loop
+   3. do..while Loop
+   4. until Loop 
