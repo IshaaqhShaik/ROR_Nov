@@ -9,3 +9,8 @@
          This means that every call to puts will begin on a new line.
 
      Print : print outputs the data you give it exactly as is, without adding a newline character.
+
+What is gets.chomp?
+  gets is used to capture user input as a string ,including the newline character.
+  While chomp is used to remove the trailing newline character from that string.
+  Using both methods together is a common practise when working with user input in Ruby to ensure that the input is in a clean and usable format.
