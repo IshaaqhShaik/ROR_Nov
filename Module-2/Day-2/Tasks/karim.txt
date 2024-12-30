@@ -1,0 +1,66 @@
+Variables: 
+    A variable is a value that can change depending on the situations or conditions passed by 
+    the user in the program.
+
+Types of Variables:
+    There are 4 types of variables are There
+
+They are 
+    1. Local Variables
+    2. Instance Variables
+    3. Class Variables
+    4. Global Variables
+
+1. Local Variables: A local variable is accessible only in the block of its initialization.They are not 
+            available outside the block. It is denoted with small letters or starting with under score.
+
+2. Instance Variables: Instance variables are available across methods for any specified instance or 
+            object i.e. instance variables can change from object to object. There is no need to 
+            initialize the instance variables and uninitialized instance variable always contains a nil 
+            value. It is started with @ symbol.
+
+3. Class Variables: A class variable belongs to the class and it is a characteristic of a class. They 
+            need to be initialized before use. It is started with @@ symbol.
+
+4. Global Variables:  A global variable name always starts with $. Class variables are not available 
+            across classes. If you want to have a single variable, which is available across classes, 
+            you need to define a global variable. Its scope is global, means it can be accessed from 
+            anywhere in a program. By default, an uninitialized global variable has a nil value and its 
+            use can cause the programs to be cryptic and complex.
+
+Data Type: 
+    A data type is a characteristic of a variable that determines what kind of data it can hold and 
+    how a computer system should interpret its value. Data types are used to ensure that data is 
+    collected in the correct format and that the value of each property is as expected.
+
+Types of Datatypes:
+    Some types of datatypes are as below
+
+    1.Number
+    2.Boolean
+    3.String 
+    4.Constant
+
+1.Number:
+    A Number data type agian split as Floating Point Number and Integer.
+    
+    Floating Point Number:
+        The floating point numbers are object of class Float, they are the decimal values.
+        Ex: 7.6, 3.0 etc.,
+
+    Integer:
+        The Integers are object of class Fixnum or Bignum, they are the exact values,
+        Ex: 3,5,76 etc.,
+
+2.Boolean:
+    The data type Boolean is the only one bit of information either True or False.
+
+3.String:
+    A data type String is the text or sequence of characters including letters, special 
+    characters,numbers and spaces etc., enclosed in quatation marks.
+
+4.Constant:
+    A constant is a fixed value, it starts with a capital letter. They can only be defined 
+    outside of methods. Constants are used for values that aren’t supposed to change, 
+    but Ruby doesn’t prevent you from changing them.
+

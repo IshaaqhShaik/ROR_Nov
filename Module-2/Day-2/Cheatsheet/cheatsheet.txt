@@ -10,3 +10,15 @@ Q 2.Difference between local and global variables ?
    global variable:
    accessible from anywhere in the program.
    starts with a dollar sign ($) (e.g, $value).
+
+Q 3.What are the different types of Variables and Datatypes?
+    Variables are classifies as below
+        Local Variables
+        Instance Variables
+        Class Variables
+        Global Variables
+    Data types are classified as below
+        Number
+        String
+        Boolean
+        Constant
