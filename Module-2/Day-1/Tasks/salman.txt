@@ -1,0 +1,36 @@
+What is ruby and it's features ?
+
+ Ruby is dynamic, open source object oriented programming language.
+ Everything is an object in ruby.
+ Each value in ruby be a number, string, array or hash, is an object with its own methods and attributes.
+
+ List Some features of Ruby?
+
+ Object oriented language.
+ Format free language
+ It is Simplicity and effective
+ It is Metaprogramming
+ It's multi platform
+
+ 
+ How to create and execute ruby programs ?
+
+ Use any text editor and create a hello.rb file.
+ Run the following command ruby filename.rb
+
+Basic  commands of ruby?
+
+ Accept user input using gets.
+ Format user input using chomp method.
+ Print test using puts.
+ Comments to add what code does. 
+
+ What is difference between "puts" and "print" ?
+
+  In ruby both puts and print are used to output data to the console they behave slightly different.
+  
+  Puts : Outputs the data you give it followed by a newline character (\n), which moves the cursor to next line.
+         This means that every call to puts will begin on a new line.
+
+ Print : print outputs the data you give it exactly as is, without adding a newline character.  
+
