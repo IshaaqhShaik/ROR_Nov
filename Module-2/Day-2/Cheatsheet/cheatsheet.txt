@@ -1,0 +1,7 @@
+     3. What is gets.chomp?
+  gets is used to capture user input as a string ,including the newline character.
+  While chomp is used to remove the trailing newline character from that string.
+  Using both methods together is a common practise when working with user input in Ruby to ensure that the input is in a clean and usable format. 
+=======
+  4.How to create ruby programs?
+     Use any text editor and create a hello.rb file. 

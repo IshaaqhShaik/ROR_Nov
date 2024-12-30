@@ -1,0 +1,71 @@
+What is Boolean?
+  A Boolean is a value used in a logic statement to say if something is considered true or false. 
+  This can be used to make decisions. In Ruby we don’t have a Boolean class, but we have Boolean objects! We have true & false. 
+  Which are the singleton objects of True Class & False Class.
+
+What is constants?
+
+ A constant is a type of variable which always starts with a capital letter. 
+ They can only be defined outside of methods, unless you use metaprogramming.
+ Constants are used for values that aren’t supposed to change, but Ruby doesn’t prevent you from changing them.
+ A constant doesn’t require any special symbol or syntax to declare. You just need to make the first letter an uppercase letter.
+
+What is String?
+ 
+ In Ruby, string is a sequence of one or more characters. It may consist of numbers, letters, or symbols. 
+ Here strings are the objects, and apart from other languages, strings are mutable, i.e. strings can be changed in place instead of creating new strings. String’s   
+ object holds and manipulates an arbitrary sequence of the bytes that commonly represents a sequence of characters.
+
+Creating Strings: To create the string, just put the sequence of characters either in double quotes or single quotes. 
+                  Also, the user can store the string into some variable. In Ruby, there is no need to specify the data type of the variable.
+ 
+What is Integers and Floating point numbers ?
+
+ Integers             : An integer is simply a sequence of digits, e.g., 12, 100. Or in other words, numbers without decimal points are called Integers. 
+                        In Ruby, Integers are object of class Fixnum(32 or 64 bits) or Bignum(used for bigger numbers).
+Floating-point numbers: Numbers with decimal points are usually called floats, e.g., 1.2, 10.0. 
+                        The floating-point numbers are object of class Float.
+
+
+     Variables: 
+    A variable is a value that can change depending on the situations or conditions passed by 
+    the user in the program.
+
+Types of Variables:
+    There are 4 types of variables are There
+
+They are 
+    1. Local Variables
+    2. Instance Variables
+    3. Class Variables
+    4. Global Variables
+
+1. Local Variables: A local variable is accessible only in the block of its initialization.They are not 
+            available outside the block. It is denoted with small letters or starting with under score.
+
+2. Instance Variables: Instance variables are available across methods for any specified instance or 
+            object i.e. instance variables can change from object to object. There is no need to 
+            initialize the instance variables and uninitialized instance variable always contains a nil 
+            value. It is started with @ symbol.
+
+3. Class Variables: A class variable belongs to the class and it is a characteristic of a class. They 
+            need to be initialized before use. It is started with @@ symbol.
+
+4. Global Variables:  A global variable name always starts with $. Class variables are not available 
+            across classes. If you want to have a single variable, which is available across classes, 
+            you need to define a global variable. Its scope is global, means it can be accessed from 
+            anywhere in a program. By default, an uninitialized global variable has a nil value and its 
+            use can cause the programs to be cryptic and complex.
+
+Data Type: 
+    A data type is a characteristic of a variable that determines what kind of data it can hold and 
+    how a computer system should interpret its value. Data types are used to ensure that data is 
+    collected in the correct format and that the value of each property is as expected.
+
+Types of Datatypes:
+    Some types of datatypes are as below
+
+    1.Number
+    2.Boolean
+    3.String 
+    4.Constant
