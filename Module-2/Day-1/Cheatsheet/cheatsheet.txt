@@ -1,3 +1,4 @@
+
 1.How to create ruby programs?
      Use any text editor and create a hello.rb file.
 
@@ -9,3 +10,6 @@
          This means that every call to puts will begin on a new line.
 
      Print : print outputs the data you give it exactly as is, without adding a newline character.
+
+3. Who invents Ruby and in which year?
+     Yukihiro Matz Matsumoto in 1993.
