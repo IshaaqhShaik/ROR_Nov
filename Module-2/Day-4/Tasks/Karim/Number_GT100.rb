@@ -4,8 +4,8 @@ number=gets.chomp.to_i
 while number <= 100
     puts "Please enter valid Number:"
     number=gets.chomp.to_i
-    #if number > 100
-        #break
-    #end
+    if number > 100
+        break
+    end
 end
 puts "You Entered required Number"

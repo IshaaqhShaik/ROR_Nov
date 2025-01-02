@@ -7,7 +7,7 @@ def is_prime_method(n)
 
     for i in 4..n-1
         if(n % i != 0)
-            
+            return true   
         else
             return false 
         end
