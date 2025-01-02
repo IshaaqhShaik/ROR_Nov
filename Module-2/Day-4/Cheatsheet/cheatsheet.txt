@@ -1,0 +1,3 @@
+Q) Explain the usage of the 'if' statement in Ruby?
+A) The if statement in Ruby is used for conditional branching in code. 
+    It evaluates a condition and, if the condition is true, it executes a block of code. 
