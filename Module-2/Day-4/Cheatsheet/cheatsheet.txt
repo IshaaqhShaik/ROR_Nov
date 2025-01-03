@@ -1,3 +1,8 @@
 Q) Explain the usage of the 'if' statement in Ruby?
 A) The if statement in Ruby is used for conditional branching in code. 
     It evaluates a condition and, if the condition is true, it executes a block of code. 
+
+
+Q) Explain the usage of the "elsif" statement in Ruby?
+A)  In Ruby, elsif is a keyword used to perform conditional logic. It stops processing as soon as the first true condition is met. 
+    This can make code more efficient and readable. 
