@@ -1,3 +1,19 @@
-Describe the difference between 'puts' and 'print' statements ?
- the difference between print and puts is that puts automatically moves the output cursor to the next line,
-whereas print continues printing text onto the same line as the previous time.
+
+1.How to create ruby programs?
+     Use any text editor and create a hello.rb file.
+
+2. What is difference between "puts" and "print" ?
+
+     In ruby both puts and print are used to output data to the console they behave slightly different.
+  
+     Puts : Outputs the data you give it followed by a newline character (\n), which moves the cursor to next line.
+         This means that every call to puts will begin on a new line.
+
+     Print : print outputs the data you give it exactly as is, without adding a newline character.
+
+3. Who invents Ruby and in which year?
+     Yukihiro Matz Matsumoto in 1993.
+
+4. Describe the difference between 'puts' and 'print' statements ?
+     the difference between print and puts is that puts automatically moves the output cursor to the next line,
+     whereas print continues printing text onto the same line as the previous time.

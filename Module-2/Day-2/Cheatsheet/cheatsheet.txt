@@ -1,0 +1,24 @@
+Q 1.Differentiate between local variables and instance variables.
+   Local variables in Ruby are variables that are defined within a method or a block. They are confined to the scope in which they are declared and are not accessible outside of it.
+   This means that if you define a local variable inside a method, it cannot be accessed outside of that method.
+   On the other hand, instance variables, denoted with an '@' prefix, belong to a specific instance of a class. They enable data persistence and access across different methods within that instance. This means that the value of an instance variable persists as long as the object instance exists.
+
+Q 2.Difference between local and global variables ?
+   local variable:
+   accessible only within the method,block, or class/module where it is defined.
+   starts with a lowercase letter or underscore (e.g., name_value)
+   global variable:
+   accessible from anywhere in the program.
+   starts with a dollar sign ($) (e.g, $value).
+
+Q 3.What are the different types of Variables and Datatypes?
+    Variables are classifies as below
+        Local Variables
+        Instance Variables
+        Class Variables
+        Global Variables
+    Data types are classified as below
+        Number
+        String
+        Boolean
+        Constant
