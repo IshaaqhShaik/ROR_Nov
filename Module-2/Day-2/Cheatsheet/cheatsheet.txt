@@ -1,18 +1,19 @@
-difference between local and global variables ?
-   local variable:
-      accessible only within the method,block, or class/module where it is defined.
-      starts with a lowercase letter or underscore (e.g., name_value)
-   global variable:
-      accessible from anywhere in the program.
-      starts with a dollar sign ($) (e.g, $value).
+   1.Difference between local and global variables ?
+       Local variable:
+          accessible only within the method,block, or class/module where it is defined.
+          starts with a lowercase letter or underscore (e.g., name_value)
+       Global variable: 
+          accessible from anywhere in the program.
+          starts with a dollar sign ($) (e.g, $value).           
 
-What is difference between "puts" and "print" ?
 
-  In ruby both puts and print are used to output data to the console they behave slightly different.
+   2.What is difference between "puts" and "print" ?
+
+       In ruby both puts and print are used to output data to the console they behave slightly different.
   
-   Puts : Outputs the data you give it followed by a newline character (\n), which moves the cursor to next line.
+       Puts : Outputs the data you give it followed by a newline character (\n), which moves the cursor to next line.
          This means that every call to puts will begin on a new line.
 
-   Print : print outputs the data you give it exactly as is, without adding a newline character.
+        Print : print outputs the data you give it exactly as is, without adding a newline character.
 
  
