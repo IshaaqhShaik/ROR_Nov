@@ -1,3 +1,7 @@
-Q) Explain the usage of the 'if' statement in Ruby?
-A) The if statement in Ruby is used for conditional branching in code. 
-    It evaluates a condition and, if the condition is true, it executes a block of code. 
+1) What are the different decision making constructs in ruby ?
+
+   1. if statement 
+   2. if-else statement 
+   3. if-elsif-else statement
+   4. unless statement
+   5. case statement
