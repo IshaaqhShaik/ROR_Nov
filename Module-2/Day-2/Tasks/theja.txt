@@ -1,0 +1,106 @@
+common data types
+->Integers
+->Floats
+->String
+->Boolean
+
+->Integers
+Integers are whole numbers such as 10.It's important to keep in mind that when doing arithmetic with to Integers in ruby,the result will always br an Integers.
+
+->Floats
+Floats are numbers that contain a decimal point such as 10.5,10.1,0.25
+
+->String
+In ruby String is a sequence of one or more characters.It may consist of numbers,letters or symbols.Here Strings are the objects.
+
+->Boolean
+A Boolean value is used in logic statement to indicate whether "true" or "false".
+
+Variables
+->Local variable(a-z or _ )
+A Local variable in ruby is a variable that is defined within the code block and is only accessible with in that block.
+Local variable name always starts with a lower case (a to z)or under score ( _ )
+Ex:age = 10
+   _Age= 20
+
+->Instance variable
+In ruby an Instance variable is variable that is assosiated with a specific Instance of class.
+An Instance variable name always starts with a @ sign.They are similar to class variable,but their value are local to specific Instance of the object.
+Ex:
+p age# Ruby program to illustrate instance variables using constructor 
+
+class Geek 
+
+	# constructor 
+	def initialize() 
+
+		# instance variable	 
+		@geekName = "R2J"
+	end
+
+	# defining method displayDetails 
+	def displayDetails() 
+		puts "Geek name is #@geekName"
+	end	
+
+end
+
+# creating an object of class Geeks 
+obj=Geek.new() 
+
+# calling the instance methods of class Geeks 
+obj.displayDetails() 
+
+Out put is Geek name is "R2J"
+
+->Class variable
+A class variable name always starts with ( @ @ )sign.It is available across different objects.
+A class variable belongs to the class and it is characteristic of a class.They need to be initialized before use.
+Ex:
+ eg-
+        class customer
+        # class variable
+        @@no_of_customers = 0
+        def initialized(id, name,addr)
+    # an instance variable
+      @cust_id = id
+      @cust_name = name
+      @cust_addr = addr
+      end    
+
+->Global variable
+In Ruby, global variables are variables that are accessible from anywhere in the program, regardless of the scope (class, module, method, etc.).
+They are used for storing data that needs to be shared across multiple scopes.
+Ex:
+# Ruby Program to understand Global Variable 
+
+# global variable 
+$global_variable = 10
+
+# Defining class 
+class Class1 
+def print_global 
+puts "Global variable in Class1 is #$global_variable"
+end
+end
+
+# Defining Another Class 
+class Class2 
+def print_global 
+puts "Global variable in Class2 is #$global_variable"
+end
+end
+
+# Creating object 
+class1obj = Class1.new
+class1obj.print_global 
+
+# Creating another object 
+class2obj = Class2.new
+class2obj.print_global 
+
+->Constants
+An uppercase letter is used to start a constant. Constants defined within a class or module can be accessed only from within that class or module,
+while those defined outside of it can be accessed globally. It is not possible to define constants within methods.
+Ex:
+FRUIT = apple
