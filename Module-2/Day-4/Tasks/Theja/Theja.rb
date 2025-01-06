@@ -23,10 +23,10 @@ marks = 70
 case marks 
 
 # using range operators .. 
-when 0..32
+when 0..34
 puts "You fail!"
 
-when 33..40
+when 35..40
 puts "You got C grade!"
 
 when 41..60
@@ -50,7 +50,7 @@ end
 #do while loop statement
 
 loop do   
-    puts "Checking for answer"   
+    puts "Check for answer"   
     answer = gets.chomp   
     if answer != '5'   
       break   
@@ -59,7 +59,7 @@ loop do
 
   #for loop statement
 
-i = "Sudo Placements"
+i = "yamaha"
 
 # using for loop with the range
 for a in 1..5 do
@@ -68,11 +68,11 @@ for a in 1..5 do
  
 end
 
-output:Sudo Placements
-       Sudo Placements
-       Sudo Placements
-       Sudo Placements
-       Sudo Placements
+output:yamaha
+       yamaha
+       yamaha
+       yamaha
+       yamaha
 
 # 'until' loop statement
 
