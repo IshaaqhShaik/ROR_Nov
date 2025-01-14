@@ -1,0 +1,94 @@
+String:
+    A string is a sequence of characters.It contains 
+    alphanumeric values and special characters.
+    Ex: Dafiya@2020
+
+String Interpolation:
+    String Interpolation refers to substitution of defined
+    variables or expressions in a given String with 
+    respected values.
+    Syntax: 
+        #{variable}
+    Ex:
+        a=1
+        b=2
+        puts "#{a} is not equal to #{b}"
+
+String Manipulation Methods:
+1.Length:
+    This method (.length) is used to find the length of 
+    the string.
+    Syntax: 
+        string.length
+    Ex:
+        "karim".length
+
+2.Empty:
+    This method (.empty?) returns true if a string has a 
+    length of zero.
+    Syntax: 
+        string.empty?
+    Ex:
+        "karim".empty?    
+
+3.Count:
+    The .count method counts how many times a specific 
+    character is found in a string.
+    
+    Note:This method is case-sensitive.
+
+    Syntax: 
+        string.count()
+    Ex: 
+        "karim".count(k)
+4.Upcase:
+    The .upcase method transforms all letters in a string
+    to uppercase.
+    Syntax: 
+        string.upcase
+    Ex: 
+        "karim".upcase
+
+5.Downcase
+    The .downcase method transforms all letters in a 
+    string to lowercase.
+    Syntax: 
+        string.lowercase
+    Ex: 
+        "karim".lowercase
+
+6.Strip:
+    The .strip method removes the leading and trailing 
+    whitespace on strings, including tabs, newlines, and 
+    carriage returns (\t, \n, \r).
+    Syntax: 
+        string.strip
+    Ex: 
+        "karim".strip
+
+7.Gsub
+    This gsub method replaces every reference of the 
+    first parameter for the second parameter on a string.
+    Syntax: 
+        string.gsub()
+    Ex: 
+        "karim plays cricket".gsub("cricket", "Tennis")
+
+8.Concatenation:(Append)
+    The << method is used to concatenate two strings 
+    together.
+    Syntax:
+        string1 << string2
+    Ex:
+        "S I" << "Karimullah"
+
+9.Index:
+    The index method returns the index position of the 
+    first occurrence of the substring or regular 
+    expression pattern match in a string. 
+    If there is no match found, nil is returned.
+    Syntax:
+        string.index()
+    Ex:
+        "karim".index('a')
+

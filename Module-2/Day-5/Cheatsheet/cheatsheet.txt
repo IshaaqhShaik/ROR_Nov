@@ -1,0 +1,10 @@
+Q) Which string method is used to removes the leading and
+   trailing whitespace on strings, including tabs, 
+   newlines, and carriage returns (\t, \n, \r).
+A) The .strip method removes the leading and trailing 
+    whitespace on strings, including tabs, newlines, and 
+    carriage returns (\t, \n, \r).
+    Syntax: 
+        string.strip
+    Ex: 
+        "karim".strip
