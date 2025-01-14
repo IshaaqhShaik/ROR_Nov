@@ -1,8 +1,13 @@
-1) what are the arithmetic operators available in ruby? can you list and explain each one?
+1.How many typres are Operators
+    There are three types
+    1.Arithmetic Operators
+    2.Comparison Operators
+    3.Logical Operators
+2.what are the arithmetic operators available in ruby? can you list and explain each one?
 
   ruby provides a variety of arithmetic operators for performing mathematical operations. 
-  1. addition (+)
-  2. subtraction (-)
-  3. multiplication (*)
-  4. division (/)
-  5. modulus (%)
+    1. addition (+)
+    2. subtraction (-)
+    3. multiplication (*)
+    4. division (/)
+    5. modulus (%)
