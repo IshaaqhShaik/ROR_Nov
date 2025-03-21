@@ -1,0 +1,108 @@
+Decision-Making Statements in Ruby:
+
+1. If Statement:
+    If statement in Ruby is used to decide whether a certain statement or block of 
+    statements will be executed or not i.e if a certain condition is true then a block of 
+    statement is executed otherwise not.
+        Syntax:
+                if (condition) 
+                    # statements to be executed 
+                end  
+2. If – else Statement:
+    In this ‘if’ statement used to execute block of code when the condition is true and 
+    ‘else’ statement is used to execute a block of code when the condition is false.
+        Syntax:  
+            if(condition)  
+                # code if the condition is true  
+            else  
+                # code if the condition is false  
+            end 
+        
+3. If – elsif – else ladder Statement:
+    Here, a user can decide among multiple options. ‘if’ statements are executed from the 
+    top down. As soon as one of the conditions controlling the ‘if’ is true, the statement 
+    associated with that ‘if’ is executed, and the rest of the ladder is bypassed. If none 
+    of the conditions is true, then the final else statement will be executed.
+        Syntax:
+            if(condition1)  
+                # code to be executed if condition1is true
+            elsif(condition2)
+                # code to be executed if condition2 is true  
+            else(condition3)  
+                # code to be executed if condition3 is true  
+            end  
+        
+4.Ternary Statement:
+    In Ruby ternary statement is also termed as the shortened if statement. It will first 
+    evaluate the expression for true or false value and then execute one of the statements.
+    If the expression is true, then the true statement is executed else false statement 
+    will get executed.
+        Syntax: 
+            test-expression ? if-true-expression : if-false-expression
+        
+5. Case Statement:
+    The case statement is a multiway branch statement just like a switch statement in 
+    other languages. It provides an easy way to forward execution to different parts of 
+    code based on the value of the expression.
+    There are 3 important keywords which are used in the case statement:
+    case: It is similar to the switch keyword in another programming languages. 
+          It takes the variables that will be used by when keyword.  
+    when: It is similar to the case keyword in another programming languages. 
+          It is used to match a single condition. There can be multiple when statements 
+          into a single case statement.
+    else: It is similar to the default keyword in another programming languages. 
+          It is optional and will execute when nothing matches.
+    Syntax:
+            case expression
+            when expression 1
+                # your code
+            when expression 2
+                # your code
+.           else
+                # your code
+            end 
+    
+Looping Statements in Ruby:
+
+1. while Loop:
+    The condition that is to be tested, is given at the beginning of the loop and all 
+    statements are executed until the given boolean condition satisfies. When the 
+    condition becomes false, the control will be out of the while loop. It is also known 
+    as an Entry Controlled Loop because the condition to be tested is present at the 
+    beginning of the loop body. So basically, while loop is used when the number of 
+    iterations is not fixed in a program. 
+        Syntax:
+            while conditional [do]
+                # code to be executed
+            end
+
+2. for Loop:
+    “for” loop has similar functionality as while loop but with different syntax. 
+    for loop is preferred when the number of times loop statements are to be executed is 
+    known beforehand. It iterates over a specific range of numbers. It is also known as 
+    Entry Controlled Loop because the condition to be tested is present at the beginning 
+    of the loop body.
+        Syntax:
+            for variable_name[, variable...] in expression [do]
+                # code to be executed
+            end
+
+3. do..while Loop:
+    do while loop is similar to while loop with the only difference that it checks the 
+    condition after executing the statements, i.e it will execute the loop body one time 
+    for sure. It is a Exit-Controlled loop because it tests the condition which presents at the end of the loop body. 
+        Syntax:
+                loop do
+                    # code to be executed
+                break if Boolean_Expression
+                end
+
+4. Until Loop:
+    Ruby until loop will executes the statements or code till the given condition 
+    evaluates to true. Basically it’s just opposite to the while loop which executes until 
+    the given condition evaluates to false. An until statement’s conditional is separated 
+    from code by the reserved word do, a newline, or a semicolon.
+        Syntax: 
+            until conditional [do]
+                # code to be executed
+            end
