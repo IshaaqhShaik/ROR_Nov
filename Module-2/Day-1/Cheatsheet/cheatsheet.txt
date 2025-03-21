@@ -13,3 +13,7 @@
 
 3. Who invents Ruby and in which year?
      Yukihiro Matz Matsumoto in 1993.
+
+4. Describe the difference between 'puts' and 'print' statements ?
+     the difference between print and puts is that puts automatically moves the output cursor to the next line,
+     whereas print continues printing text onto the same line as the previous time.
