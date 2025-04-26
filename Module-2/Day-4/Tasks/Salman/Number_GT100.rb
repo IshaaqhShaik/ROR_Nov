@@ -8,4 +8,4 @@ while number <= 100
         break
     end
 end
-puts "You should Enter required Number"   
+puts "You should Enter required Number"     
